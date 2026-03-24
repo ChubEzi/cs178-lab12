@@ -38,7 +38,7 @@ def analyze(word):
     # Count the characters in `word` and return as a string
     # Example: /analyze/Drake  →  should display: 5
     #pass
-    return len(word)
+    return str(len(word))
 
 
 # ============================================================
