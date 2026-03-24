@@ -72,7 +72,7 @@ def analyze(word):
     # YOUR CODE HERE
     # Reverse the word
     # Hint: Python string slicing with [::-1] reverses a string
-    reversed_word = ''  # replace this with your reverse logic
+    reversed_word = word[::-1]  # replace this with your reverse logic
 
     return render_template('analyze.html',
                            word=word,
